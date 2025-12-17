@@ -31,4 +31,20 @@ console.log(obj4)
 
 console.log(obj3)
 
-  
+// *************************************
+
+//deconstructing object
+
+const company ={
+    Ename: "IBM",
+    JobRole : "data scientist",
+    CTC: 1000000
+}
+const{Ename}=company
+console.log(Ename)
+
+//or in react 
+// const job = ({company})=>{
+
+// }
+
